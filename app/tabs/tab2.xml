@@ -1,5 +1,7 @@
 <TabViewItem title="Tab 2">
-  <TabViewItem.view>
+  <TabViewItem.view >
+    <StackLayout loaded="tabTwoLoaded">
      <Label text="{{ username }}" />
+   </StackLayout>
   </TabViewItem.view>
 </TabViewItem>
