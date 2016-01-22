@@ -1,0 +1,9 @@
+<TabViewItem title="Tab 1">
+  <TabViewItem.view>
+    <ListView items="{{ items }}">
+      <ListView.itemTemplate>
+        <Label text="{{ title }}" textWrap="true" />
+      </ListView.itemTemplate>
+    </ListView>
+  </TabViewItem.view>
+</TabViewItem>

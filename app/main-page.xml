@@ -1,4 +1,5 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd"
+      xmlns:tabs="tabs" loaded="pageLoaded">
 
   <Page.actionBar>
     <ActionBar title="TabView Example" android.position="actionBar" />
@@ -6,25 +7,8 @@
 
   <TabView>
    <TabView.items>
-
-     <!-- Tab 1 -->
-     <TabViewItem title="Tab 1">
-       <TabViewItem.view>
-         <ListView items="{{ items }}">
-           <ListView.itemTemplate>
-             <Label text="{{ title }}" textWrap="true" />
-           </ListView.itemTemplate>
-         </ListView>
-       </TabViewItem.view>
-     </TabViewItem>
-
-     <!-- Tab 2 -->
-     <TabViewItem title="Tab 2">
-       <TabViewItem.view>
-          <Label text="{{ username }}" />
-       </TabViewItem.view>
-     </TabViewItem>
-
+     <tabs:tab1 />
+     <tabs:tab2 />
    </TabView.items>
  </TabView>
 </Page>

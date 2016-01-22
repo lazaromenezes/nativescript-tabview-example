@@ -1,0 +1,5 @@
+<TabViewItem title="Tab 2">
+  <TabViewItem.view>
+     <Label text="{{ username }}" />
+  </TabViewItem.view>
+</TabViewItem>
